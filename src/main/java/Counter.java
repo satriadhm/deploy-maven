@@ -3,16 +3,25 @@ package src.main.java;
 public class Counter {
 
 	private int count;
+
+	private int count1;
+	private int count2;
+	private int count3;
+	private int count4;
+	private int count5;
+	private int count6;
+	private int count7;
 	
-	public Counter() {
+	
+	public Counter(int a, int b) {
 		this.reset();
 	}
 		
-	public void reset() {
+	public void reset(int a, int b) {
 		count = 0;
 	}
 	
-	public void increment() {
+	public void increment(int a, int b) {
 		count++;
 	}
 	
@@ -20,7 +29,7 @@ public class Counter {
 		count+=i;
 	}
 	
-	public void decrement() {
+	public void decrement(int a, int b) {
 		count--;
 	}
 	
