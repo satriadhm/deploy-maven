@@ -46,7 +46,7 @@ public class Counter {
 		multiplyBy(i);
 	}
 
-	public void powerBy(){
+	public void powerBy(int i){
 		count = count ^ i;
 	}
 	
