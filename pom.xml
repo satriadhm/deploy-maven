@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>contohprojectmaven</groupId>
-  <artifactId>contohproject</artifactId>
+  <groupId>cotsmkpl</groupId>
+  <artifactId>cotsmkpl</artifactId>
   <version>0.3.5</version>
 
 <dependencies>
@@ -16,14 +16,14 @@
     <repository>
       <id>github</id>
       <name>GitHub Packages</name>
-      <url>https://maven.pkg.github.com/akunmkepl/continuous_inspection</url>
+      <url>https://maven.pkg.github.com/satriadhm/cots_mkpl</url>
     </repository>
   </distributionManagement>
   
   <properties>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
-    <sonar.organization>akunmkepl</sonar.organization>
+    <sonar.organization>glorioussatria</sonar.organization>
     <sonar.host.url>https://sonarcloud.io</sonar.host.url>
  </properties>
 
