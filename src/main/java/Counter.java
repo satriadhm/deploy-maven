@@ -13,31 +13,31 @@ public class Counter {
 	private int count7;
 	
 	
-	public Counter(int a, int b) {
+	public Counter() {
 		this.reset();
 	}
 		
-	public void reset(int a, int b) {
+	public void reset() {
 		count = 0;
 	}
 	
-	public void increment(int a, int b) {
+	public void increment() {
 		count++;
 	}
 	
-	public void increaseBy(int i) {
+	public void increaseBy() {
 		count+=i;
 	}
 	
-	public void decrement(int a, int b) {
+	public void decrement() {
 		count--;
 	}
 	
-	public void decreaseBy(int i) {
+	public void decreaseBy() {
 		count-=i;
 	}
 	
-	public void multiplyBy(int i){
+	public void multiplyBy(){
 		count = count * i;
 	}
 	
@@ -46,7 +46,7 @@ public class Counter {
 		multiplyBy(i);
 	}
 
-	public void powerBy(int i){
+	public void powerBy(){
 		count = count ^ i;
 	}
 	
