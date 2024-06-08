@@ -41,7 +41,7 @@ public class Counter {
 		count = count * i;
 	}
 	
-	public void triple(int i){
+	public void triple(){
 		int i = 3;
 		multiplyBy(i);
 	}
