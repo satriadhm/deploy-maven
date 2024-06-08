@@ -25,7 +25,7 @@ public class Counter {
 		count++;
 	}
 	
-	public void increaseBy() {
+	public void increaseBy(int i) {
 		count+=i;
 	}
 	
@@ -33,15 +33,15 @@ public class Counter {
 		count--;
 	}
 	
-	public void decreaseBy() {
+	public void decreaseBy(int i) {
 		count-=i;
 	}
 	
-	public void multiplyBy(){
+	public void multiplyBy(int i){
 		count = count * i;
 	}
 	
-	public void triple(){
+	public void triple(int i){
 		int i = 3;
 		multiplyBy(i);
 	}
